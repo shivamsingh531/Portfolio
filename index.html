@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivam Singh Chauhan — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a href="#top" class="brand"><span class="brand-dot"></span>Shivam Singh Chauhan</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="navlinks" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certs">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <div class="blob blob1"></div>
+    <div class="hero-grid">
+      <div class="reveal">
+        <span class="eyebrow">Open to opportunities</span>
+        <h1>Building things with code, <span class="hl">one project at a time</span></h1>
+        <p class="lede">I'm a Computer Science student who likes turning ideas into working software — currently deep in Python and Java, and exploring how generative AI can solve real, everyday problems.</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-solid">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div style="position:relative;" class="reveal">
+        <div class="blob blob2"></div>
+        <div class="photo-card">
+          <img src="assets/images/profile.jpg" alt="Portrait of Shivam Singh Chauhan">
+          <div class="photo-tag">Hey, that's me 👋</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="reveal">
+        <span class="sec-tag">About</span>
+        <h2>Still learning, always building</h2>
+        <p style="margin-top:18px;">I'm a BTech Computer Science student, and most of my time outside class goes into writing code and figuring out how things work under the hood. Python is where I'm most comfortable, and I've been picking up Java alongside it.</p>
+        <p>I don't have a fixed lane yet — web, AI, or general software engineering all interest me — and I'd rather stay open and pick up whatever a good problem needs. Right now that means building my first real project: a generative-AI-powered farm decision system.</p>
+      </div>
+      <div class="reveal">
+        <div class="stat-card">
+          <h3>2</h3>
+          <span>Core languages — Python &amp; Java</span>
+        </div>
+        <div class="stat-card">
+          <h3>5</h3>
+          <span>Certifications completed</span>
+        </div>
+        <div class="stat-card">
+          <h3>1</h3>
+          <span>Project in the works — a gen AI farm dashboard</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-tag">Skills</span>
+      <h2>What I work with</h2>
+      <p>The core toolkit right now — growing with every project.</p>
+    </div>
+    <div class="skill-row reveal">
+      <span class="skill-chip py"><i></i>Python</span>
+      <span class="skill-chip java"><i></i>Java</span>
+      <span class="skill-chip html"><i></i>HTML / CSS / JS</span>
+      <span class="skill-chip learn"><i></i>AI/ML fundamentals — learning</span>
+    </div>
+  </section>
+
+  <section id="projects" style="background:var(--paper); border-top:2px solid var(--ink); border-bottom:2px solid var(--ink);">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">Projects</span>
+        <h2>What I'm building</h2>
+        <p>First real project, currently in progress — more on the way.</p>
+      </div>
+      <div class="project-card reveal">
+        <div>
+          <h3>Gen AI Farm Decision System</h3>
+          <p>A dashboard concept that takes farm inputs — crop, soil, weather conditions — and turns them into AI-generated insights and recommendations, built to make data-driven decisions more accessible for farmers.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Generative AI</span>
+          </div>
+        </div>
+        <span class="status-pill">Frontend in progress</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="certs" class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-tag">Certifications</span>
+      <h2>Courses &amp; programs completed</h2>
+      <p>Click any card to preview the certificate right here on the page.</p>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card reveal" tabindex="0" role="button"
+           data-pdf="assets/certificates/isro-aiml-geodata.pdf"
+           data-title="AI/ML for Geodata Analytics">
+        <h3>AI/ML for Geodata Analytics</h3>
+        <div class="issuer">ISRO — Indian Institute of Remote Sensing, Dehradun</div>
+        <div class="meta">Online course · Aug 2026</div>
+        <span class="cert-view">View certificate <i>↗</i></span>
+      </div>
+      <div class="cert-card reveal" tabindex="0" role="button"
+           data-pdf="assets/certificates/deloitte-cyber-job-simulation.pdf"
+           data-title="Cyber Job Simulation">
+        <h3>Cyber Job Simulation</h3>
+        <div class="issuer">Deloitte, via Forage</div>
+        <div class="meta">Cyber security practical tasks · Nov 2025</div>
+        <span class="cert-view">View certificate <i>↗</i></span>
+      </div>
+      <div class="cert-card reveal" tabindex="0" role="button"
+           data-pdf="assets/certificates/knowledgegate-complete-html.pdf"
+           data-title="Complete HTML">
+        <h3>Complete HTML</h3>
+        <div class="issuer">KnowledgeGate</div>
+        <div class="meta">Score: 79% · Jan 2026</div>
+        <span class="cert-view">View certificate <i>↗</i></span>
+      </div>
+      <div class="cert-card reveal" tabindex="0" role="button"
+           data-pdf="assets/certificates/oracle-oci-ai-foundations.pdf"
+           data-title="Oracle Certified Foundations Associate">
+        <h3>Oracle Certified Foundations Associate</h3>
+        <div class="issuer">Oracle University</div>
+        <div class="meta">OCI 2025 AI Foundations · Oct 2025</div>
+        <span class="cert-view">View certificate <i>↗</i></span>
+      </div>
+      <div class="cert-card reveal" tabindex="0" role="button"
+           data-pdf="assets/certificates/oracle-agentic-ai-foundations.pdf"
+           data-title="Agentic AI Certified Foundations Associate">
+        <h3>Agentic AI Certified Foundations Associate</h3>
+        <div class="issuer">Oracle University</div>
+        <div class="meta">Valid until Sept 2028 · Sept 2026</div>
+        <span class="cert-view">View certificate <i>↗</i></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap reveal">
+    <h2>Let's build something together</h2>
+    <p>I'm open to internships, collaborations, and interesting problems to solve. Reach out — I'd love to hear from you.</p>
+    <div class="contact-links">
+      <a href="mailto:shivamsing990695@gmail.com" class="contact-link" id="emailLink">
+        <span class="c-icon">✉</span> shivamsing990695@gmail.com
+      </a>
+      <a href="https://github.com/shivamsingh531" target="_blank" rel="noopener" class="contact-link">
+        <span class="c-icon">⌥</span> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/shivam-singh-chauhan-352029345" target="_blank" rel="noopener" class="contact-link">
+        <span class="c-icon">in</span> LinkedIn
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 Shivam Singh Chauhan. Built with HTML, CSS &amp; a lot of curiosity.</footer>
+
+<!-- Certificate preview modal -->
+<div class="modal-overlay" id="certModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-header">
+      <h3 id="modalTitle">Certificate</h3>
+      <div class="modal-actions">
+        <a id="modalOpenNewTab" class="modal-link" target="_blank" rel="noopener">Open in new tab ↗</a>
+        <button class="modal-close" id="modalClose" aria-label="Close preview">&times;</button>
+      </div>
+    </div>
+    <div class="modal-body">
+      <iframe id="modalFrame" src="" title="Certificate preview"></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
